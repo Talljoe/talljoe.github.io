@@ -3,7 +3,7 @@
   <title>Talljoe</title>
   
   <link href="/atom.xml" rel="self"/>
-  
+  <link href="http://talljoe.superfeedr.com/" rel="hub"/>
   <link href="http://talljoe.com/"/>
   <updated>2017-01-26T08:53:40.909Z</updated>
   <id>http://talljoe.com/</id>
