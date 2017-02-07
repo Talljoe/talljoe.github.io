@@ -54,6 +54,18 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
-
+			<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+			ga('create', 'UA-31995112-2', 'auto');
+			ga('send', 'pageview');
+			ga('require', 'cleanUrlTracker', {
+			    stripQuery: true,
+			    queryDimensionIndex: 1,
+			    indexFilename: 'index.html',
+			    trailingSlash: 'remove'
+			  });
+			ga('require', 'socialWidgetTracker');
+			</script>
+			<script async src="https://www.google-analytics.com/analytics.js"></script>
+			<script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/1.1.0/autotrack.js"></script>
 	</body>
 </html>
