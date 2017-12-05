@@ -49,6 +49,12 @@
 			}
 		}
 
+		header p {
+			&:not(:last-of-type) {
+				margin-bottom: 0;
+			}
+		}
+
 		@include breakpoint(xsmall) {
 			min-width: 0;
 			width: 100%;
